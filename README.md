@@ -1,47 +1,16 @@
-## Electron + TypeScript + React
-Boilerplate for a project using Electron, React and Typescript
+## OTF
 
-## Installation
+An Optimal Typeface Finder for your system fonts. An design tool agnostic workflow for **listing, searching and testing all typefaces** installed on your system.
 
-Use a package manager of your choice (npm, yarn, etc.) in order to install all dependencies
+### Branch
 
-```bash
-npm install
-```
+`feature-gallery`
 
-```bash
-yarn install
-```
+Implementation of the main visualization option for _all_ typefaces installed on your system.
 
-## Usage
-In order to run this project 2 scripts will need to be executed `dev:react` and `dev:electron`, run each one in a different terminal and always run `dev:react` before `dev:electron`, or `dev` to run them in order automatically
+## WIP
 
-```bash
-npm run dev:react
-```
-```bash
-npm run dev:electron
-```
-
-or
-
-```bash
-npm run dev
-```
-
-## Packaging
-To generate a project package run `package`
-
-```bash
-npm run package
-```
-
-
-
-## Contributing
-
-Pull requests are always welcome 😃.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+- [ ] Fetch all the system fonts using [node-font-list library](https://github.com/oldj/node-font-list).
+- [ ] Render system fonts with pagination.
+- [ ] Implement FontItem component.
+- [ ] Implement FontItem various states.
